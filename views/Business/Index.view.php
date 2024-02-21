@@ -56,14 +56,15 @@
         </div>
     </div>
 </div>
-<form>
+<form action="" method="POST">
   <div class="mb-3">
     <h1>Email</h1>
     <input type="email" class="inputform" name="email" placeholder="Escriba su Email">
   </div>
   <div class="mb-3">
   <h1>Pregunta</h1>
-    <input type="text" class="inputform" placeholder="Escriba su Pregunta">
+    <input type="text" class="inputform" placeholder="Escriba su Pregunta" name="pregunta">
   </div>
-  <button type="submit" class="btn btn-primary inputSubmit">Submit</button>
+  <button type="submit" class="btn btn-primary inputSubmit">Enviar</button>
 </form>
+<hr>
