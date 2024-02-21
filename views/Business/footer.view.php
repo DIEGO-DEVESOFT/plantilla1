@@ -2,6 +2,7 @@
     <div>
         <h3>
             &copy;Derechos reservados de autor<br>
+            Realizado el día: 20/02/2024<br>
             2024
         </h3>
     </div>
