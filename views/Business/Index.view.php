@@ -32,7 +32,7 @@
             <p class="card-text parrCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minus illum cum quibusdam et voluptatum culpa enim ab vero fugiat. Quaerat quisquam dignissimos aspernatur minus repudiandae voluptate expedita temporibus excepturi, provident perferendis voluptatem distinctio quis, numquam necessitatibus ut! Esse nobis ipsam dolore. Provident commodi accusantium porro quia officiis, ratione at alias voluptas, dolores soluta vero vel repudiandae culpa cumque. Quidem obcaecati impedit aut cum suscipit!.</p>
         </div>
         <div class="card-footer">
-            <input type="button" value="Ver Más" class="btn btn-primary">
+            <input onclick="return soporte()" type="button" value="Ver Más" class="btn btn-primary">
         </div>
     </div>
     <div class="card">
@@ -42,7 +42,7 @@
             <p class="card-text parrCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque exercitationem fuga in obcaecati, itaque modi voluptas distinctio nam, ducimus nulla velit quos. Quidem corporis ipsam nihil, id sed necessitatibus nobis neque nisi perspiciatis, totam excepturi asperiores est dignissimos libero tempora voluptatem culpa quae architecto, rem provident voluptas. Voluptatibus culpa dolore fugit modi ullam libero totam fugiat reprehenderit sequi non. Ratione similique sequi nobis harum ex atque itaque beatae saepe non.</p>
         </div>
         <div class="card-footer">
-            <input type="button" value="Ver Más" class="btn btn-primary">
+            <input  onclick="return prueba()" type="button" value="Ver Más" class="btn btn-primary">
         </div>
     </div>
     <div class="card">
@@ -52,19 +52,19 @@
             <p class="card-text parrCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab pariatur earum magni ipsum. Obcaecati eos exercitationem ipsum asperiores fugiat aliquid quas dignissimos minima dolor, culpa totam laborum excepturi quis, odio nulla? Unde expedita ullam dolorum nihil, obcaecati harum, quod ab vel, quas maxime dolor animi voluptas voluptates aliquam enim quaerat culpa officia? Quod, dolorem voluptatibus. Quas laboriosam rerum tenetur.</p>
         </div>
         <div class="card-footer">
-            <input type="button" value="Ver Más" class="btn btn-primary">
+            <input onclick="return exito()" type="button" value="Ver Más" class="btn btn-primary">
         </div>
     </div>
 </div>
 <form action="" method="POST">
-  <div class="mb-3">
-    <h1>Email</h1>
-    <input type="email" class="inputform" name="email" placeholder="Escriba su Email">
-  </div>
-  <div class="mb-3">
-  <h1>Pregunta</h1>
-    <input type="text" class="inputform" placeholder="Escriba su Pregunta" name="pregunta">
-  </div>
-  <button type="submit" class="btn btn-primary inputSubmit">Enviar</button>
+    <div class="mb-3">
+        <h1>Email</h1>
+        <input type="email" class="inputform" name="email" placeholder="Escriba su Email" required>
+    </div>
+    <div class="mb-3">
+        <h1>Pregunta</h1>
+        <input type="text" class="inputform" placeholder="Escriba su Pregunta" name="pregunta" required>
+    </div>
+    <button type="submit" class="btn btn-primary inputSubmit">Enviar</button>
 </form>
 <hr>
